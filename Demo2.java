@@ -15,6 +15,9 @@ public class Demo2 {
 		catch(ArrayIndexOutOfBoundsException e) {//only first catch only occur:
 			System.out.println(e);
 		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
 	}
 
 }
